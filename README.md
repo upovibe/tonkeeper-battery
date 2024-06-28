@@ -37,8 +37,6 @@ tonkeeper-battery/
 │ │ ├── logo/
 │ │ ├── video/
 │ │ ├── ...
-
-
 ├── src/
 │ ├── assets/
 │ │ ├── images/
