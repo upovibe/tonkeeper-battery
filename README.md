@@ -9,9 +9,8 @@ Effortless transactions without gas fees. Swap tokens, transfer assets, and hand
 - [Project Structure](#project-structure)
 - [Installation](#installation)
 - [Usage](#usage)
-- [Available Scripts](#available-scripts)
-- [Contributing](#contributing)
-- [License](#license)
+- [Contribution](#contribution)
+- [Contact](#contact)
 
 ## Overview
 
@@ -74,3 +73,94 @@ tonkeeper-battery/
 ├── tailwind.config.js
 ├── postcss.config.js
 ├── vite.config.js
+
+---
+
+
+## Installation
+
+To get started with this project, clone the repository and install the dependencies:
+
+```bash
+git clone https://github.com/your-username/tonkeeper-battery.git
+cd tonkeeper-battery
+npm install
+```
+
+---
+
+## Install Tailwind CSS
+
+```bash
+npm install -D tailwindcss postcss autoprefixer
+npx tailwindcss init
+```
+
+---
+
+Add the following to your tailwind.config.js file:
+
+```bash
+module.exports = {
+  content: [
+    "./src/**/*.{js,jsx,ts,tsx}",
+    "./public/index.html",
+  ],
+  theme: {
+    extend: {},
+  },
+  plugins: [],
+}
+```
+
+---
+
+Add the following to your src/styles/App.css file:
+
+```bash
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+```
+
+---
+
+## Install Font Awesome
+
+```bash
+npm install --save @fortawesome/fontawesome-svg-core @fortawesome/free-solid-svg-icons @fortawesome/react-fontawesome
+```
+
+---
+
+Import Font Awesome in your project (e.g., src/App.jsx):
+
+```bash
+import { library } from '@fortawesome/fontawesome-svg-core';
+import { fas } from '@fortawesome/free-solid-svg-icons';
+
+library.add(fas);
+
+```
+
+---
+
+## Usage
+
+To start the development server, run:
+
+```bash
+npm run dev
+```
+
+---
+
+## Contribution
+
+This project is part of the Tonkeeper Battery Contest. Contributions towards enhancing battery efficiency and innovative ideas for managing battery status are welcome. Please submit your entries and suggestions through the contest portal.
+
+## Connect
+
+- [LinkedIn](https://www.linkedin.com/in/upovibe/)
+- [x](https://www.x.com/upovibe/)
+- [Telegram](https://t.me/upovibe)
