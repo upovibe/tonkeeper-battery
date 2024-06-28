@@ -2,6 +2,8 @@
 
 Effortless transactions without gas fees. Swap tokens, transfer assets, and handle NFTs seamlessly with Tonkeeper Battery.
 
+![Tonkeeper Battery Screenshot](src/assets/images/Toonkeeper-battery-screenshot.png)
+
 ## Table of Contents
 
 - [Overview](#overview)
@@ -159,7 +161,7 @@ npm run dev
 
 This project is part of the Tonkeeper Battery Contest. Contributions towards enhancing battery efficiency and innovative ideas for managing battery status are welcome. Please submit your entries and suggestions through the contest portal.
 
-## Connect
+## Contact
 
 - [LinkedIn](https://www.linkedin.com/in/upovibe/)
 - [x](https://www.x.com/upovibe/)
