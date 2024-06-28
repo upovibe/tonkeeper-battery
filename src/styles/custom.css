@@ -1,0 +1,229 @@
+/********************************************************* General Scrollbar Settings ************************************/
+* {
+    scrollbar-width: thin;
+    scrollbar-color: #888 transparent;
+}
+
+body {
+    scrollbar-gutter: stable both-edges;
+}
+
+/****************************************************** Scrollbar Styling **********************************************************/
+::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+}
+
+::-webkit-scrollbar-track {
+    background: transparent;
+    margin: 4px 0;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 10px;
+    width: 6px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+
+/******************************************************* Hide Scrollbar *****************************************************/
+.scrollbar-hide::-webkit-scrollbar {
+    display: none;
+}
+
+.scrollbar-hide {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+/*************************************** Her Section Animated Gradient Text *************************************/
+.animated-text {
+    animation: AnimationText 10s ease infinite;
+}
+
+@keyframes AnimationText {
+    0% {
+        background-position: 0% 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+
+
+/*************************************** Hero Section Battery Bolting Animation *************************************/
+.bolt {
+    animation: battery-bolt 2s linear infinite;
+}
+
+@keyframes battery-bolt {
+    50% {
+        transform: scale(1.2);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}
+
+
+
+/************************************************* Hero Section Battery Charge Animation **************************************************/
+.charge {
+    animation: battery-charge 8s linear infinite;
+}
+
+@keyframes battery-charge {
+    0% {
+        height: 0%;
+        opacity: 80%;
+    }
+
+    25% {
+        height: 25%;
+    }
+
+    50% {
+        height: 50%;
+    }
+
+    75% {
+        height: 75%;
+    }
+
+    100% {
+        height: 85%;
+    }
+}
+
+
+
+/*********************************************** Feature Section Hover Effect ***********************************************/
+.parent-container:hover .child {
+    transform: translate(0, 0);
+    margin-top: 0;
+}
+
+
+/******************************************* Keyframes for different animations *********************************************************/
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes fadeInFromLeft {
+    from {
+        transform: translateX(-100%);
+        opacity: 0;
+    }
+
+    to {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+@keyframes fadeInFromRight {
+    from {
+        transform: translateX(100%);
+        opacity: 0;
+    }
+
+    to {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+@keyframes fadeInFromDown {
+    from {
+        transform: translateY(100%);
+        opacity: 0;
+    }
+
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+@keyframes fadeInFromUp {
+    from {
+        transform: translateY(-100%);
+        opacity: 0;
+    }
+
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+/* Page load animations */
+.fade-in {
+    animation: fadeIn 1.5s ease-out forwards;
+}
+
+.fade-in-left {
+    animation: fadeInFromLeft 1s ease-out forwards;
+}
+
+.fade-in-right {
+    animation: fadeInFromRight 1s ease-out forwards;
+}
+
+.fade-in-down {
+    animation: fadeInFromDown 1s ease-out forwards;
+}
+
+.fade-in-up {
+    animation: fadeInFromUp 1s ease-out forwards;
+}
+
+/* Scroll animations */
+.fade-in-scroll,
+.fade-in-left-scroll,
+.fade-in-right-scroll,
+.fade-in-down-scroll,
+.fade-in-up-scroll {
+    opacity: 0;
+}
+
+.fade-in-scroll.visible {
+    animation: fadeIn 1s ease-out forwards;
+    opacity: 1;
+}
+
+.fade-in-left-scroll.visible {
+    animation: fadeInFromLeft 1s ease-out forwards;
+    opacity: 1;
+}
+
+.fade-in-right-scroll.visible {
+    animation: fadeInFromRight 1s ease-out forwards;
+    opacity: 1;
+}
+
+.fade-in-down-scroll.visible {
+    animation: fadeInFromDown 1s ease-out forwards;
+    opacity: 1;
+}
+
+.fade-in-up-scroll.visible {
+    animation: fadeInFromUp 1s ease-out forwards;
+    opacity: 1;
+}
