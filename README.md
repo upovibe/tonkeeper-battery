@@ -1,5 +1,3 @@
-// src/README.md
-
 # Tonkeeper Battery
 
 Effortless transactions without gas fees. Swap tokens, transfer assets, and handle NFTs seamlessly with Tonkeeper Battery.
@@ -36,7 +34,19 @@ tonkeeper-battery/
 │ │ ├── brands-logo/
 │ │ ├── logo/
 │ │ ├── video/
-│ │ ├── ...
+│ │ ├── Automated.png
+│ │ ├── Create New Wallet.png
+│ │ ├── Download the App.png
+│ │ ├── Inapp purchase.png
+│ │ ├── NFTs.png
+│ │ ├── Open Battery.png
+│ │ ├── Open Settings.png
+│ │ ├── photo_2024-05-01_15-21-33.png
+│ │ ├── photo_2024-06-24_15-33-58.png
+│ │ ├── Purchase.png
+│ │ ├── Receive Tokens.png
+│ │ ├── token swap.png
+│ │ ├── Token Transfers.png
 ├── src/
 │ ├── assets/
 │ │ ├── images/
@@ -65,7 +75,6 @@ tonkeeper-battery/
 ├── postcss.config.js
 ├── vite.config.js
 
-
 ## Installation
 
 To get started with this project, clone the repository and install the dependencies:
@@ -74,3 +83,10 @@ To get started with this project, clone the repository and install the dependenc
 git clone https://github.com/your-username/tonkeeper-battery.git
 cd tonkeeper-battery
 npm install
+
+Usage
+To start the development server, run:
+
+bash
+Copy code
+npm run dev
