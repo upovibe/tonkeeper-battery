@@ -36,7 +36,7 @@ Tonkeeper Battery is a user-friendly application that allows seamless transactio
 To get started with this project, clone the repository and install the dependencies:
 
 ```bash
-git clone https://github.com/your-username/tonkeeper-battery.git
+git clone https://github.com/upovibe/tonkeeper-battery.git
 cd tonkeeper-battery
 npm install
 ```
